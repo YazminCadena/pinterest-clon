@@ -4,20 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Codigo para llamar Material Symbols & Icons Google-->
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded" />
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/pinterest_icon.png" type="image/x-icon">
     <title>Pinterest</title>
-
 </head>
 
 <body>
     <!--Encabezado del sitio-->
     <header>
-        <nav>
+        <nav class="menu">
             <a href="https://mx.pinterest.com/">
-                <img id="pinterest-icon" src="assets/pinterest_icon.png" alt="">
+                <img id="pinterest-icon" src="assets/pinterest_icon.png" alt="Pinterest">
             </a>
-            <!--Iconos izquierda-->
+            <!--Iconos lado izquierdo-->
             <div class="left-items">
                 <ul class="first-list">
                     <li><a id="inicio" href="">Inicio</a></li>
@@ -25,318 +27,317 @@
                     <li><a id="crear" href="">Crear</a></li>
                 </ul>
             </div>
-
-            <!--Barra de busqueda -->
+            <!--Barra de busqueda-->
             <div class="search">
                 <div class="barra">
-                    <span class="material-symbols-outlined">
+                    <span id="lupa" class="material-symbols-outlined">
                         search
                     </span>
                     <input type="text" placeholder="Buscar">
-
                 </div>
             </div>
-            <!--Iconos derecha-->
-            <div class="right-items"></div>
-            <span class="material-symbols-outlined">
-                notifications
-            </span>
-            <span class="material-symbols-outlined">
-                sms
-            </span>
-            <span class="material-symbols-outlined">
-                account_circle
-            </span>
-            <span class="material-symbols-outlined">
-                keyboard_arrow_down
-            </span>
-
+            <!--Iconos lado derecho-->
+            <div class="right-items">
+                <!--Codigo de iconos Material Symbols & Icons Google-->
+                <span class="material-symbols-outlined"> notifications </span>
+                <span class="material-symbols-outlined"> sms </span>
+                <span class="material-symbols-outlined"> account_circle </span>
+                <span class="material-symbols-outlined"> keyboard_arrow_down </span>
+            </div>
         </nav>
+        <nav class="menu-movil">
+            <li><span class="material-symbols-rounded">home</span></li>
+            <li><span class="material-symbols-rounded">search</span></li>
+            <li><span class="material-symbols-rounded">add</span></li>
+            <li><span class="material-symbols-rounded">maps_ugc</span></li>
+            <li><span class="material-symbols-rounded">account_circle</span></li>
+        </nav>
+
+
     </header>
 
-    <!--Main es la parte principal-->
+    <!--Parte principal-->
     <main class="contenido">
         <div class="imagenes">
-            <!--Card-->
+            <!--Inicio Card Image-->
             <div class="card-image">
                 <img src="assets/1.jpg" alt="" class="img">
+                <!--Botones-->
                 <button class="button">
                     <a href="#">Guardar</a>
                 </button>
-                <span class="material-symbols-outlined">
-                    upload
-                </span>
-                <span class="material-symbols-outlined">
-                    more_horiz
-                </span>
+                <span class="material-symbols-outlined oculto1"> download </span>
+                <span class="material-symbols-outlined oculto2"> more_horiz </span>
             </div>
-            <!--Fin del card-->
+            <!--Fin de Card Image-->
+
+            <!--Inicio Card Image-->
             <div class="card-image">
                 <img src="assets/2.png" alt="" class="img">
+                <!--Botones-->
                 <button class="button">
                     <a href="#">Guardar</a>
                 </button>
-                <span class="material-symbols-outlined">
-                    upload
-                </span>
-                <span class="material-symbols-outlined">
-                    more_horiz
-                </span>
+                <span class="material-symbols-outlined oculto1"> download </span>
+                <span class="material-symbols-outlined oculto2"> more_horiz </span>
             </div>
+            <!--Fin de Card Image-->
+
+            <!--Inicio Card Image-->
             <div class="card-image">
                 <img src="assets/3.jpeg" alt="" class="img">
+                <!--Botones-->
                 <button class="button">
                     <a href="#">Guardar</a>
                 </button>
-                <span class="material-symbols-outlined">
-                    upload
-                </span>
-                <span class="material-symbols-outlined">
-                    more_horiz
-                </span>
+                <span class="material-symbols-outlined oculto1"> download </span>
+                <span class="material-symbols-outlined oculto2"> more_horiz </span>
             </div>
+            <!--Fin de Card Image-->
+
+            <!--Inicio Card Image-->
             <div class="card-image">
                 <img src="assets/4.png" alt="" class="img">
+                <!--Botones-->
                 <button class="button">
                     <a href="#">Guardar</a>
                 </button>
-                <span class="material-symbols-outlined">
-                    upload
-                </span>
-                <span class="material-symbols-outlined">
-                    more_horiz
-                </span>
+                <span class="material-symbols-outlined oculto1"> download </span>
+                <span class="material-symbols-outlined oculto2"> more_horiz </span>
             </div>
+            <!--Fin de Card Image-->
+
+            <!--Inicio Card Image-->
             <div class="card-image">
                 <img src="assets/5.jpeg" alt="" class="img">
+                <!--Botones-->
                 <button class="button">
                     <a href="#">Guardar</a>
                 </button>
-                <span class="material-symbols-outlined">
-                    upload
-                </span>
-                <span class="material-symbols-outlined">
-                    more_horiz
-                </span>
+                <span class="material-symbols-outlined oculto1"> download </span>
+                <span class="material-symbols-outlined oculto2"> more_horiz </span>
             </div>
+            <!--Fin de Card Image-->
+
+            <!--Inicio Card Image-->
             <div class="card-image">
                 <img src="assets/6.jpeg" alt="" class="img">
+                <!--Botones-->
                 <button class="button">
                     <a href="#">Guardar</a>
                 </button>
-                <span class="material-symbols-outlined">
-                    upload
-                </span>
-                <span class="material-symbols-outlined">
-                    more_horiz
-                </span>
+                <span class="material-symbols-outlined oculto1"> download </span>
+                <span class="material-symbols-outlined oculto2"> more_horiz </span>
             </div>
+            <!--Fin de Card Image-->
+
+            <!--Inicio Card Image-->
             <div class="card-image">
                 <img src="assets/7.jpeg" alt="" class="img">
+                <!--Botones-->
                 <button class="button">
                     <a href="#">Guardar</a>
                 </button>
-                <span class="material-symbols-outlined">
-                    upload
-                </span>
-                <span class="material-symbols-outlined">
-                    more_horiz
-                </span>
+                <span class="material-symbols-outlined oculto1"> download </span>
+                <span class="material-symbols-outlined oculto2"> more_horiz </span>
             </div>
+            <!--Fin de Card Image-->
+
+            <!--Inicio Card Image-->
             <div class="card-image">
                 <img src="assets/8.jpeg" alt="" class="img">
+                <!--Botones-->
                 <button class="button">
                     <a href="#">Guardar</a>
                 </button>
-                <span class="material-symbols-outlined">
-                    upload
-                </span>
-                <span class="material-symbols-outlined">
-                    more_horiz
-                </span>
+                <span class="material-symbols-outlined oculto1"> download </span>
+                <span class="material-symbols-outlined oculto2"> more_horiz </span>
             </div>
+            <!--Fin de Card Image-->
+
+            <!--Inicio Card Image-->
             <div class="card-image">
                 <img src="assets/9.jpeg" alt="" class="img">
+                <!--Botones-->
                 <button class="button">
                     <a href="#">Guardar</a>
                 </button>
-                <span class="material-symbols-outlined">
-                    upload
-                </span>
-                <span class="material-symbols-outlined">
-                    more_horiz
-                </span>
+                <span class="material-symbols-outlined oculto1"> download </span>
+                <span class="material-symbols-outlined oculto2"> more_horiz </span>
             </div>
+            <!--Fin de Card Image-->
+
+            <!--Inicio Card Image-->
             <div class="card-image">
                 <img src="assets/10.jpeg" alt="" class="img">
+                <!--Botones-->
                 <button class="button">
                     <a href="#">Guardar</a>
                 </button>
-                <span class="material-symbols-outlined">
-                    upload
-                </span>
-                <span class="material-symbols-outlined">
-                    more_horiz
-                </span>
+                <span class="material-symbols-outlined oculto1"> download </span>
+                <span class="material-symbols-outlined oculto2"> more_horiz </span>
             </div>
+            <!--Fin de Card Image-->            
+
+            <!--Inicio Card Image-->
             <div class="card-image">
                 <img src="assets/11.jpeg" alt="" class="img">
+                <!--Botones-->
                 <button class="button">
                     <a href="#">Guardar</a>
                 </button>
-                <span class="material-symbols-outlined">
-                    upload
-                </span>
-                <span class="material-symbols-outlined">
-                    more_horiz
-                </span>
+                <span class="material-symbols-outlined oculto1"> download </span>
+                <span class="material-symbols-outlined oculto2"> more_horiz </span>
             </div>
+            <!--Fin de Card Image-->
+
+            <!--Inicio Card Image-->
             <div class="card-image">
                 <img src="assets/12.jpeg" alt="" class="img">
+                <!--Botones-->
                 <button class="button">
                     <a href="#">Guardar</a>
                 </button>
-                <span class="material-symbols-outlined">
-                    upload
-                </span>
-                <span class="material-symbols-outlined">
-                    more_horiz
-                </span>
+                <span class="material-symbols-outlined oculto1"> download </span>
+                <span class="material-symbols-outlined oculto2"> more_horiz </span>
             </div>
+            <!--Fin de Card Image-->
+
+            <!--Inicio Card Image-->
             <div class="card-image">
                 <img src="assets/13.jpeg" alt="" class="img">
+                <!--Botones-->
                 <button class="button">
                     <a href="#">Guardar</a>
                 </button>
-                <span class="material-symbols-outlined">
-                    upload
-                </span>
-                <span class="material-symbols-outlined">
-                    more_horiz
-                </span>
+                <span class="material-symbols-outlined oculto1"> download </span>
+                <span class="material-symbols-outlined oculto2"> more_horiz </span>
             </div>
+            <!--Fin de Card Image-->
+
+            <!--Inicio Card Image-->
             <div class="card-image">
                 <img src="assets/14.jpeg" alt="" class="img">
+                <!--Botones-->
                 <button class="button">
                     <a href="#">Guardar</a>
                 </button>
-                <span class="material-symbols-outlined">
-                    upload
-                </span>
-                <span class="material-symbols-outlined">
-                    more_horiz
-                </span>
+                <span class="material-symbols-outlined oculto1"> download </span>
+                <span class="material-symbols-outlined oculto2"> more_horiz </span>
             </div>
+            <!--Fin de Card Image-->
+
+            <!--Inicio Card Image-->
             <div class="card-image">
-                <img src="assets/15.jpeg." alt="" class="img">
+                <img src="assets/15.jpeg" alt="" class="img">
+                <!--Botones-->
                 <button class="button">
                     <a href="#">Guardar</a>
                 </button>
-                <span class="material-symbols-outlined">
-                    upload
-                </span>
-                <span class="material-symbols-outlined">
-                    more_horiz
-                </span>
+                <span class="material-symbols-outlined oculto1"> download </span>
+                <span class="material-symbols-outlined oculto2"> more_horiz </span>
             </div>
+            <!--Fin de Card Image-->
+
+            <!--Inicio Card Image-->
             <div class="card-image">
                 <img src="assets/16.jpeg" alt="" class="img">
+                <!--Botones-->
                 <button class="button">
                     <a href="#">Guardar</a>
                 </button>
-                <span class="material-symbols-outlined">
-                    upload
-                </span>
-                <span class="material-symbols-outlined">
-                    more_horiz
-                </span>
+                <span class="material-symbols-outlined oculto1"> download </span>
+                <span class="material-symbols-outlined oculto2"> more_horiz </span>
             </div>
+            <!--Fin de Card Image-->
+
+            <!--Inicio Card Image-->
             <div class="card-image">
                 <img src="assets/17.png" alt="" class="img">
+                <!--Botones-->
                 <button class="button">
                     <a href="#">Guardar</a>
                 </button>
-                <span class="material-symbols-outlined">
-                    upload
-                </span>
-                <span class="material-symbols-outlined">
-                    more_horiz
-                </span>
+                <span class="material-symbols-outlined oculto1"> download </span>
+                <span class="material-symbols-outlined oculto2"> more_horiz </span>
             </div>
+            <!--Fin de Card Image-->
+
+            <!--Inicio Card Image-->
             <div class="card-image">
                 <img src="assets/18.jpeg" alt="" class="img">
+                <!--Botones-->
                 <button class="button">
                     <a href="#">Guardar</a>
                 </button>
-                <span class="material-symbols-outlined">
-                    upload
-                </span>
-                <span class="material-symbols-outlined">
-                    more_horiz
-                </span>
+                <span class="material-symbols-outlined oculto1"> download </span>
+                <span class="material-symbols-outlined oculto2"> more_horiz </span>
             </div>
+            <!--Fin de Card Image-->
+            
+            <!--Inicio Card Image-->
             <div class="card-image">
                 <img src="assets/19.jpeg" alt="" class="img">
+                <!--Botones-->
                 <button class="button">
                     <a href="#">Guardar</a>
                 </button>
-                <span class="material-symbols-outlined">
-                    upload
-                </span>
-                <span class="material-symbols-outlined">
-                    more_horiz
-                </span>
+                <span class="material-symbols-outlined oculto1"> download </span>
+                <span class="material-symbols-outlined oculto2"> more_horiz </span>
             </div>
+            <!--Fin de Card Image-->
+
+            <!--Inicio Card Image-->
             <div class="card-image">
                 <img src="assets/20.jpg" alt="" class="img">
+                <!--Botones-->
                 <button class="button">
                     <a href="#">Guardar</a>
                 </button>
-                <span class="material-symbols-outlined">
-                    upload
-                </span>
-                <span class="material-symbols-outlined">
-                    more_horiz
-                </span>
+                <span class="material-symbols-outlined oculto1"> download </span>
+                <span class="material-symbols-outlined oculto2"> more_horiz </span>
             </div>
+            <!--Fin de Card Image-->    
+            
+            <!--Inicio Card Image-->
             <div class="card-image">
                 <img src="assets/21.jpg" alt="" class="img">
+                <!--Botones-->
                 <button class="button">
                     <a href="#">Guardar</a>
                 </button>
-                <span class="material-symbols-outlined">
-                    upload
-                </span>
-                <span class="material-symbols-outlined">
-                    more_horiz
-                </span>
+                <span class="material-symbols-outlined oculto1"> download </span>
+                <span class="material-symbols-outlined oculto2"> more_horiz </span>
             </div>
+            <!--Fin de Card Image-->
+
+            <!--Inicio Card Image-->
             <div class="card-image">
                 <img src="assets/22.jpeg" alt="" class="img">
+                <!--Botones-->
                 <button class="button">
                     <a href="#">Guardar</a>
                 </button>
-                <span class="material-symbols-outlined">
-                    upload
-                </span>
-                <span class="material-symbols-outlined">
-                    more_horiz
-                </span>
+                <span class="material-symbols-outlined oculto1"> download </span>
+                <span class="material-symbols-outlined oculto2"> more_horiz </span>
             </div>
+            <!--Fin de Card Image-->
+
+            <!--Inicio Card Image-->
             <div class="card-image">
                 <img src="assets/23.jpeg" alt="" class="img">
+                <!--Botones-->
                 <button class="button">
                     <a href="#">Guardar</a>
                 </button>
-                <span class="material-symbols-outlined">
-                    upload
-                </span>
-                <span class="material-symbols-outlined">
-                    more_horiz
-                </span>
+                <span class="material-symbols-outlined oculto1"> download </span>
+                <span class="material-symbols-outlined oculto2"> more_horiz </span>
             </div>
+            <!--Fin de Card Image-->
+            
         </div>
     </main>
+
 </body>
 
 </html>
